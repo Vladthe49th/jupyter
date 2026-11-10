@@ -1,0 +1,19 @@
+names:
+- Buses
+- Heavy Duty Truck
+- MiniBus taxi
+- Motorbikes
+- Passenger Car
+- Pedestrians
+- Pickup Trucks
+- Sport-Utility-Vehicle
+nc: 8
+roboflow:
+  license: CC BY 4.0
+  project: vehicle-detection-dataset-sgafv
+  url: https://universe.roboflow.com/yolo-al3ff/vehicle-detection-dataset-sgafv/dataset/1
+  version: 1
+  workspace: yolo-al3ff
+test: ../test/images
+train: ../train/images
+val: ../valid/images
